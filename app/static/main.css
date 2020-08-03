@@ -1,0 +1,23 @@
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  width: 250px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #d6d1cd !important;
+  transition: ease-in 0.1s;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    width: 180px;
+  }
+}
