@@ -13,7 +13,7 @@ def create_app():
         SEND_FILE_MAX_AGE_DEFAULT=0,
     )
     global model
-    model = jb.load("./app/ml_models/random_forest_regressor_02_06_2020.pkl.z")
+    model = jb.load("./app/ml_models/random_forest_features_reduced.pkl.z")
 
     Bootstrap(app)
 

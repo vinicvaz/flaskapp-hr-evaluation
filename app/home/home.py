@@ -11,4 +11,4 @@ home_bp = Blueprint(
     static_url_path='/home/static'
 )
 
-home_bp.add_url_rule('/', view_func=home, methods=['GET'])
+home_bp.add_url_rule('/', view_func=home, methods=['GET', 'POST'])

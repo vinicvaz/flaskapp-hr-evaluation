@@ -3,13 +3,12 @@
 .container-fluid {
   width: 100%;
   height: 100vh;
-  background: url("./assets/home_background.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
 }
 
 .row {
-  text-align: center;
   color:black
+}
+
+.col_results{
+  text-align: center;
 }
