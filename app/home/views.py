@@ -13,8 +13,8 @@ def home():
             'projects':[form.data['projects']],
             "avg_hours": [form.data['avg_hours']],
             "time": [form.data['time_spend']],
-            'emp_identity': [form.data['emp_identity']],
-            "emp_role":[form.data['emp_role']],
+            'emp_identity': [int(form.data['emp_identity'])],
+            "emp_role":[int(form.data['emp_role'])],
             'percent_remote': [form.data['percent_remote']]
         }
         features = pd.DataFrame(data)
